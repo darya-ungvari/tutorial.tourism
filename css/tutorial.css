@@ -1,0 +1,248 @@
+
+:root {
+  --primary-text-color:#212121;
+  /* --title-text-color: #FFFFFF; */
+  --accent-color: #2196F3;
+  --primary-white-color:#FFFFFF;
+
+}
+
+body{
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-family:'Exo2', sans-serif;
+  letter-spacing: 2%;
+  font-size: 14px;
+}
+h1, h2, h3 {
+  color: var(--title-text-color);
+}
+
+
+.link {
+  text-decoration: none;
+  color: var(--primary-white-color);
+ 
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  height: 100px;
+  background-color: #202431;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color:var(--primary-white-color);
+  margin-right: 400px;
+  padding-top: 40px;
+}
+
+.logo-accent {
+  color: #B1E0BD;
+}
+
+.contacts.list {
+  padding: 0;
+  display: flex;
+  margin: 0;
+  margin-left: auto;
+  margin-top: 40px;
+}
+ .contacts-item + .contacts-item {
+   margin-left: 50px;
+}
+.contacts-tel link,
+.contacts-mail link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 64px;
+  color: var(--primary-white-color);
+}
+
+
+.overlay {
+  background-image: 
+  linear-gradient(to right, rgba(30, 28, 33, 0.84), rgba(43, 41, 49, 0.84)), 
+  url(../images/rocky-mountains.jpg);
+  height: 780px;
+
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+.hero-title {
+  display: block;
+  margin: 0;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 24px;
+  color: var(--primary-white-color);
+  padding-top: 150px;
+
+}
+
+.hero-subtitle {
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #B1E0BD;
+  margin-bottom: 54px;
+}
+
+.hero-description {
+  display: block;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: var(--primary-white-color);
+  margin-top: 0;
+  margin-bottom: 44px;
+}
+.hero-description-list {
+  margin: 0;
+  padding: 20px;
+}
+.hero-description-list .item {
+  display: block;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: var(--primary-white-color);
+  
+}
+
+.hero-description-list .item + .item {
+  margin-top: 57px;
+}
+
+.button-position {
+  display: flex;
+}
+
+.join-us {
+  display: block;
+  margin-top: 140px;
+  margin-left: 340px;
+  height: 70px;
+  padding-left: 57px;
+  padding-right: 57px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--primary-white-color);
+  background-color: transparent;
+  border: 2px solid #d1d1d1;
+  border-radius: 30px;
+}
+
+.next-trips .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.next-trips-list {
+  display: flex;
+  justify-content: space-between;
+}
+.card-trip {
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+}
+.next-trip-photo {
+  margin-bottom: 33px;
+}
+.card-trip:hover {
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1), 1px 2px 2px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.10);
+}
+
+.next-trips-title {
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--primary-text-color);
+}
+
+.trip-name {
+  display: block;
+  margin-left: 45px;
+  margin-top: 0;
+  margin-bottom: 11px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--primary-text-color);
+}
+
+.next-trip-date {
+  display: block;
+  margin-top: 0;
+  margin-left: 45px;
+  margin-bottom: 0;
+  
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  color: #46616c;
+}
+
+.next-trip-price {
+  display: block;
+  margin-top: 0;
+  margin-left: 45px;
+  margin-bottom: 0;
+
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 22px;
+  color: #46616c;
+}
+
+.next-trip-info {
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.join-group {
+  display: block;
+  color: var(--primary-white-color);
+  background-image: 
+  linear-gradient(to right, rgba(1, 71, 32, 1),rgba(1, 63, 28, 1));
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 11px;
+}
